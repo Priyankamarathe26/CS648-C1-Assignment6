@@ -14,16 +14,6 @@
     "watch": "webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jainamshethhere/assignment5.git"
-  },
-  "author": "Jainam Sheth",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jainamshethhere/assignment5/issues"
-  },
-  "homepage": "https://github.com/jainamshethhere/assignment5#readme",
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "bootstrap": "^3.4.1",
