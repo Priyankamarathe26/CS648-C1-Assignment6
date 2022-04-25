@@ -41,7 +41,7 @@ app.get('*', (_, res) => {
   res.sendFile(path.resolve('public/index.html'));
 });
 
-const port = 9000;
+const port = process.env.API_SERVER_PORT || 8000;
 
 app.listen(port, () => {
   console.log(`UI started on port ${port}`);
